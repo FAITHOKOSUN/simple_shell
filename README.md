@@ -1,1 +1,1 @@
-In this project,building a custom linux shell.
+In this project, we are practicing how to build custom linux shell.
