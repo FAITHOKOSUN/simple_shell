@@ -194,20 +194,7 @@ void free_info(info_t *, int);
 
 /* env.c module */
 char *_getenv(info_t *, const char *);
-<<<<<<< HEAD
-int _myenv(info_t *index(list_t *, list_t *);
-
-/* chain.c */
-int is_chain(info_t *, char *, size_t *);
-void check_chain(info_t *, char *, size_t *, size_t, size_t);
-int replace_alias(info_t *);
-int replace_vars(info_t *);
-int replace_string(char **, char *);
-
-#endif);
-=======
 int _myenv(info_t *);
->>>>>>> 258dd1ac0f14fea0576fba77405415d579f7e5de
 int _mysetenv(info_t *);
 int _myunsetenv(info_t *);
 int populate_env_list(info_t *);
@@ -236,9 +223,6 @@ size_t list_len(const list_t *);
 char **list_to_strings(list_t *);
 size_t print_list(const list_t *);
 list_t *node_starts_with(list_t *, char *, char);
-<<<<<<< HEAD
-ssize_t get_node_
-=======
 ssize_t get_node_index(list_t *, list_t *);
 
 /* chain.c */
@@ -249,4 +233,3 @@ int replace_vars(info_t *);
 int replace_string(char **, char *);
 
 #endif
->>>>>>> 258dd1ac0f14fea0576fba77405415d579f7e5de

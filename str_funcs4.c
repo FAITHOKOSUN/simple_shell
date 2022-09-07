@@ -38,12 +38,6 @@ char **strtow(char *str, char *d)
 			for (k = 0; k < j; k++)
 				free(s[k]);
 			free(s);
-<<<<<<< HEAD
-			return (NULLor (k = 0; k < j; k++)
-				free(s[k]);
-			free(s);
-=======
->>>>>>> 258dd1ac0f14fea0576fba77405415d579f7e5de
 			return (NULL);
 		}
 		for (m = 0; m < k; m++)
@@ -52,17 +46,6 @@ char **strtow(char *str, char *d)
 	}
 	s[j] = NULL;
 	return (s);
-<<<<<<< HEAD
-});
-		}
-		for (m = 0; m < k; m++)
-			s[j][m] = str[i++];
-		s[j][m] = 0;
-	}
-	s[j] = NULL;
-	return (s);
-=======
->>>>>>> 258dd1ac0f14fea0576fba77405415d579f7e5de
 }
 
 /**
@@ -97,9 +80,6 @@ char **strtow2(char *str, char d)
 		s[j] = malloc((k + 1) * sizeof(char));
 		if (!s[j])
 		{
-<<<<<<< HEAD
-			f
-=======
 			for (k = 0; k < j; k++)
 				free(s[k]);
 			free(s);
@@ -112,4 +92,3 @@ char **strtow2(char *str, char d)
 	s[j] = NULL;
 	return (s);
 }
->>>>>>> 258dd1ac0f14fea0576fba77405415d579f7e5de
